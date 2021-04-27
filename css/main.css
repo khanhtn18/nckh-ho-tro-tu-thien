@@ -1,0 +1,356 @@
+/* !!! respondsive >= 250px */
+/* !!! !important > boostrap */
+/* !!! include *.php */
+/* animation */
+@keyframes appear {
+    from {opacity: 0;}
+    100% {opacity: 1;}
+}
+@-webkit-keyframes appear {
+    from {opacity: 0;}
+    100% {opacity: 1;}
+}
+/* color */
+:root {
+    /* color */
+    --color: rgb(0, 132, 255);
+    --light-color: rgb(0, 158, 226);
+    --dark-color: rgba(82, 92, 163, .95);
+    /* link */
+    --contrast:  white;
+    --contrast-hover: blue;
+    /* * */
+    --prime-color: white;
+    --prime-bg: orange;
+    --prime-hover: rgba(0, 132, 255, 0.2);
+    /* active */
+    --active: orange;
+}
+body {
+    background-color: white !important;
+}
+/* text color */
+.text-prime, 
+.text-prime li a, 
+.text-prime a {
+    color: var(--prime-color) !important;
+}
+.text-color, 
+.text-color li a, 
+.text-color a {
+    color: var(--color) !important;
+}
+.text-lcolor, 
+.text-lcolor li a, 
+.text-lcolor a {
+    color: var(--light-color) !important;
+}
+.text-dcolor, 
+.text-dcolor li a, 
+.text-dcolor a {
+    color: var(--dark-color) !important;
+}
+.text-cont, 
+.text-cont li:not(.active) a {
+    color: var(--contrast) !important;
+}
+.text-cont li:not(.active) a:hover {
+    color: var(--contrast-hover) !important;
+}
+.link-cont,
+.link-cont a {
+    color: var(--contrast) !important;
+}
+.link-cont a:hover {
+    color: var(--contrast-hover) !important;
+}
+/* background color */
+.bg-prime {
+    background-color: var(--prime-color) !important;
+}
+.bg-color {
+    background-color: var(--color) !important;
+}
+.bg-lcolor {
+    background-color: var(--light-color) !important;
+}
+.bg-dcolor {
+    background-color: var(--dark-color) !important;
+}
+.bg-cont {
+    background-color: var(--contrast) !important;
+}
+/* banner */
+#search-nav {
+    display: flex;
+    flex-direction: row;
+    border-radius: 5px;
+}
+#search-nav input {
+    width: calc(100% - 6em);
+    font-size: 2rem;
+    border: 0;
+    box-shadow: none;
+}
+#search-nav button {
+    font-size: 1.1rem;
+    padding: 1em;
+    margin-left: 1em;
+}
+/* respondsive */
+@media only screen and (max-width: 600px) {
+    #search-nav input,
+    div[class*="field-text"],
+    div[class*=field-additional-text],
+    div h1[class*="field-title"] {
+        font-size: 14px !important;
+    }
+}
+@media only screen and (max-width: 400px) {
+    #search-nav input {
+        padding-left: 0;
+        padding-right: 0;
+        text-align: center;
+        width: 100%;
+    }
+    #search-nav button {
+        text-align: center;
+        width: 100%;
+        margin: 0;
+    }
+    #search-nav input,
+    div[class*="field-text"],
+    div[class*=field-additional-text],
+    div h1[class*="field-title"] {
+        font-size: 12px !important;
+    }
+    div h1[class*="field-title"] {
+        padding-top: 1.5em;
+    }
+    p, h1, h2, h3, h4, h5,
+    .link-hover {
+        font: 1em !important;
+    }
+}
+/* header */
+header {
+    z-index: 100 !important;
+}
+.lang-div {
+    width: fit-content;
+}
+#lang-nav::after {
+    content: '';
+    border-right: 1px solid white;
+    padding: 0 .2em;
+}
+#lang-item {
+    visibility: hidden;
+}
+.nav-link {
+    font-weight: bold;
+    text-transform: uppercase;
+    color: white !important;
+    transition: all 300ms;
+}
+.nav-link:hover {
+    border-bottom: 3px solid white;
+    border-radius: 3px;
+}
+body.osw.osw-small-header #wrapper header .osw-header.osw-bg-transparent {
+    background-color: rgba(0, 178, 255,.95);
+}
+body.osw #wrapper a {
+    text-decoration: none;
+}
+#welcome-div {
+    height: 100%;
+}
+#logo-nav {
+    border-radius: 25px !important;
+    width: fit-content;
+}
+nav,
+#navbarSupportedContent,
+#navbarSupportedContent ul{
+    height: 100%;
+}
+#navbarSupportedContent ul{
+    margin-bottom: 0 !important;
+}
+#navbarSupportedContent {
+    margin-left: 1rem;
+}
+#navbarSupportedContent li ~ li{
+    margin-left: 2rem !important;
+}
+#navbarSupportedContent li{
+    display: flex;
+    align-items: center;
+}
+/* respondsive */
+@media only screen and (max-width: 1200px) {
+    #navbarSupportedContent {
+        display: none !important;
+    }
+}
+@media only screen and (max-width: 420px) {
+    #welcome-div .osw-header-message-line1 {
+        display: none;
+    }
+}
+@media only screen and (max-width: 400px) {
+    .osw-header-message {
+        display: none;
+    }
+    header nav[class*="navbar-expand-lg"] { 
+        display: none;
+    }
+    .lang-div {
+        padding: 0 .5em;
+    }
+}
+@media only screen and (max-width: 250px) {
+    .lang-div {
+        padding: 0;
+    }
+}
+/* footer */
+footer {
+    border-style: groove;
+    border: 20px groove var(--contrast);
+    border-width: 10px 0 0 0;
+    background-image: linear-gradient(to right, rgba(255,0,0,0), rgba(0, 217, 255, .8));
+}
+#InputEmailFooter {
+    font-size: 1.4rem;
+}
+.footer-div {
+    display: grid;
+    place-items: center;
+}
+footer h1, 
+footer h2, 
+footer h3, 
+footer h4, 
+footer h5 {
+    color: white;
+    text-transform: uppercase;
+    padding-bottom: .5em;
+    text-align: center;
+}
+footer input {
+    font-size: 1.3em !important;
+    padding: 1em !important;
+}
+footer button[type=submit] {
+    font-size: 1.4em !important;
+    display: block !important;
+    margin: 0 auto;
+}
+footer .form-div {
+    display: flex;
+    flex-direction: row;
+}
+footer .form-div input {
+    margin: .5em;
+}
+footer p {
+    font-size: 1.4em !important;
+    color: white;
+}
+footer i {
+    font-size: 2em !important;
+    color: var(--contrast);
+    transition: color 300ms ease-in-out;
+}
+footer i:hover {
+    cursor: pointer;
+    color: var(--contrast-hover);
+}
+#icon-nav a~a {
+    padding-left: .5em;
+}
+footer li {
+    margin-top: 1rem;
+}
+footer a {
+    text-decoration: none !important;
+    color: var(--contrast);
+}
+footer li:hover a:not(h5) {
+    color: var(--contrast-hover);
+}
+footer input {
+    margin-left: 0 !important;
+}
+#break, .breaks {
+    display: none;
+}
+body.osw #wrapper ul > li::before {
+    display: none;
+}
+body.osw #wrapper ul > li {
+    padding-left: 0;
+}
+body.osw #wrapper ul {
+    margin: 0;
+}
+body.osw #wrapper a:link, 
+body.osw #wrapper a:visited {
+    color: rgb(234, 255, 255);
+}
+body.osw #wrapper a:hover {
+    color: white;
+}
+/* responsive */
+@media only screen and (max-width: 1500px) {
+    .html {
+        font-size: 18px;
+    }
+}
+@media only screen and (max-width: 1200px) {
+    #category {
+        margin: 0 auto;
+    }
+    footer .col {
+        padding: 0;
+    }
+}
+@media only screen and (max-width: 1000px) {
+    footer ul {
+        padding: 0;
+    }
+}
+@media only screen and (max-width: 800px) {
+    footer #break {
+        display: block;
+    }
+    footer .form-div {
+        display: block;
+    }
+}
+@media only screen and (max-width: 600px) {
+    footer .breaks {
+        display: block;
+    }
+    footer * {
+        padding: 0;
+    }
+    #footer-nav {
+        display: block !important;
+    }
+    footer p {
+        text-align: center;
+    }
+}
+@media only screen and (max-width: 400px) {
+    footer input::placeholder {
+        font-size: .8em;
+    }
+}
+@media only screen and (max-width: 250px) {
+    footer input::placeholder {
+        font-size: 12px;
+    }
+}

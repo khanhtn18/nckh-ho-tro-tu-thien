@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html class="no-js" lang="vi">
+<head>
+   <!--UTF-8 -> font-->
+<meta charset="UTF-8">
+<!--Bootstrap 4.4.1-->
+<script src="js/jquery-3.4.1.slim.min.js"></script>
+<script src="js/popper.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<link href="css/bootstrap.min.css" type="text/css" rel="stylesheet">
+<link href="css/optimized-min_2.css" rel="stylesheet">
+<link href="css/optimized-min_1.css" rel="stylesheet">
+<link href="css/optimized-min.css" rel="stylesheet">
+<link href="css/optimized-min_3.css" rel="stylesheet">
+<!-- notag -->
+<link href="css/specific-ve-vi.css" type="text/css" rel="stylesheet">
+<link rel="canonical">
+<link href="img/matt_logo.jpg" rel="shortcut icon">
+<!--facebook -> search-->
+<meta content="Trang chủ - Mái ấm truyền tin ở Việt Nam" property="og:title">
+<meta content="https://www.MATT.com.vn/" property="og:url">
+<!--SEO -> google search-->
+<meta content="Trang chủ" name="description">
+<meta content="Giới thiệu, chăm sóc sức khỏe, hành trình, sức khỏe, nhu cầu, giải pháp, trách nhiệm cộng đồng, nghề nghiệp, văn hóa doanh nghiệp" name="keywords">
+<!--twitter -> search-->
+<meta content="Trang chủ - Mái ấm truyền tin ở Việt Nam" property="twitter:title">
+<meta content="summary_large_image" property="twitter:card">
+<!--respondsive-->
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<!--main.css -> footer + color-->
+<link href="css/main.css" type="text/css" rel="stylesheet">
+<!--php => mysql-->
+   <link rel="stylesheet" href="css/quy-dinh.css"/>
+</head>
+<body class="default-device osw osw-main-underheader osw-color-darkgrey osw-bg-palegrey bodyclass">
+   <div id="wrapper">
+      <!-- #header -->
+      <header>
+    <div class="component osw-backtotop osw-backtotop-label-none osw-backtotop-default">
+        <div class="component-content">
+            <a href="#" aria-label="Trở lại đầu trang" class="">
+                <i class="fa fa-chevron-up" aria-hidden="true"></i>
+            </a>
+        </div>
+    </div>
+    <div id="header">
+        <div class="component osw-gridxy-container grid-container full">
+            <div class="component osw-gridx grid-x align-middle osw-header osw-bg-transparent osw-bgstrength-dark">
+            <div class="component image osw-header-logo osw-js-removedefaultinline cell shrink align-self-middle">
+                <div class="component-content">
+                    <a id="logo-nav" title="Trang chủ" href="/" style="background-image: url('img/matt_logo.jpg');">
+                        <img src="img/matt_logo.jpg" alt="matt_logo" width="70" height="56" data-variantfieldname="Image">
+                    </a>    
+                </div>
+                </div>
+                <div class="component content cell auto align-self-middle large-shrink">
+                <div class="component-content">
+                    <div class="grid-y align-center osw-header-message" id="welcome-div">
+                        <div class="cell osw-header-message-line1 field-value">Chào mừng bạn đến với</div>
+                        <div class="cell osw-header-message-line2 field-value">Mái Ấm Truyền Tin</div>
+                    </div>
+                </div>
+                </div>
+                <div class="lang-div">
+                    <a id="lang-nav" href="#" role="button" onclick="hideShow('lang-item')">VI</a>
+                    <a id="lang-item" href="#">EN</a>
+                </div>
+                <nav class="navbar navbar-expand-lg navbar-light text-center">
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav mr-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.php">Trang chủ<span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="lich-su.php">Lịch sử</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="quy-dinh.php">Quy định</a>
+                        </li>
+                    </ul>
+                </div>
+                </nav>
+                <div class="component container cell shrink align-self-stretch show-for-large-only osw-header-tools mr-0">
+                    <div class="component-content">
+                        <div class="component osw-gridx grid-x align-center-middle">
+                            <div class="component image osw-js-removedefaultinline osw-search-selector cell shrink align-self-middle">
+                                <div class="component-content">
+                                    <a title="Tìm kiếm" href="tim-kiem.php">
+                                        <div class="osw-search-selector-content">
+                                            <div class="osw-search-selector-image">
+                                                <img src="img/osw-search-header-color.png" alt="Busca" width="24" height="24" data-variantitemid="{9FBBCDE5-769D-4417-A992-6A92501E96D2}" data-variantfieldname="Image">
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="component image osw-js-removedefaultinline osw-nav-mobile-open cell shrink align-self-middle hide-for-large">
+                <div class="component-content">
+                    <a title="Tìm kiếm" href="tim-kiem.php">
+                        <div class="osw-search-selector-content">
+                            <div class="osw-search-selector-image"><img src="img/osw-search-header-white.png" alt="Busca" width="24" height="24" data-variantitemid="{9FBBCDE5-769D-4417-A992-6A92501E96D2}" data-variantfieldname="Image"></div>
+                        </div>
+                    </a>
+                </div>
+                </div>
+                <div class="component image osw-js-removedefaultinline osw-nav-mobile-open cell shrink align-self-middle hide-for-large">
+                <div class="component-content">
+                    <a title="Mục lục" href="#" onclick="appendNav('header')">
+                        <img src="img/osw-nav-mobile-launcher.png" alt="Navigation" width="128" height="128" data-variantitemid="{89B0294C-88CA-40F4-B5BB-0433329BFD98}" data-variantfieldname="Image">
+                    </a>    
+                </div>
+                </div>
+            </div>
+            <div class="component osw-gridx grid-x align-center-middle osw-nav-mobile-container osw-nav-mobile-container-closed">
+                <div class="component plain-html cell auto hide-for-large">
+                <div class="component-content">
+                    <nav aria-live="assertive" aria-atomic="true" class="osw-nav-mobile"></nav>
+                </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>      <!-- /#header -->
+      <!-- #content -->
+      <main>
+         <div class="component osw-homepage osw-page-content-offset-none">
+    <div class="component-content">
+        <div class="osw-page-header">
+            <div class="component osw-gridcontainerline grid-container full">
+                <div class="component osw-gridx grid-x">
+                    <div class="component osw-contentblock osw-contentblock-imagefull osw-contentblock-imagefull-contentposition-010 osw-contentblock-imagefull-update cell small-12 medium-12 large-12 osw-bgfiltercolor-black osw-bgfilteropacity-030 osw-bgstrength-dark osw-color-white osw-contentblock-imagefull-cover osw-contentblock-titlesize-h2 osw-minheight-medium osw-paddingbottom-large osw-paddingtop-2large osw-paddingright-2large osw-paddingleft-2large text-center">
+                        <div class="component-content">
+                            <div class="osw-contentblock-imagefull-container">
+                                <div class="osw-contentblock-imagefull-container-img">
+                                    <img src="img/matt2.jpg" id="banner-img" alt="Banner" width="5197" height="3465" data-variantitemid="{2EC5E74F-07DD-4E3A-A74C-D96317D20023}" data-variantfieldname="Main Image">
+                                </div>
+                                <div class="osw-contentblock-imagefull-container-content">
+                                    <div class="osw-contentblock-imagefull-container-content-top">
+                                        <div class="osw-contentblock-title">
+                                            <h1 class="field-title" style="text-transform: uppercase;">
+                                            Mái Ấm Truyền Tin
+                                            </h1>
+                                            <h1 class="field-title" style="text-transform: uppercase;">
+                                            ngôi nhà chung của các trẻ
+                                            </h1>
+                                        </div>
+                                    </div>
+                                    <div class="osw-contentblock-imagefull-container-content-middle">
+                                        <div class="osw-contentblock-maintext field-text mt-3">
+                                            Đây sẽ là một đoạn văn ngắn gọn trong 1 dòng. Mô tả một nội dung bất kỳ mà mái ấm muốn truyền đạt cho mọi người.
+                                        </div>
+                                        <form class="form-group form-inline my-5 bg-white p-3" id="search-nav" action="tim-kiem.php" method="GET">
+                                            <input class="form-control m-0 h-100" type="text" name="search" placeholder="Gõ vào đây để tìm kiếm" aria-label="Search">
+                                            <button type="submit" class="btn btn-primary">Tìm kiếm</button>
+                                        </form>
+                                    </div>
+                                    <div class="osw-contentblock-imagefull-container-content-bottom">
+                                        <div class="osw-contentblock-additionaltext field-additional-text">
+                                            Mái Ấm Truyền Tin, một mái ấm cho mọi nhà.
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>   
+        </div>
+    </div>
+</div>         <div>
+            <h1 class="main-title">
+               Mục quy định
+            </h1>
+         </div>
+         <div class="text-div">
+            <div class="rule-div" class="bg-light p-5">
+               <ul>
+                  <li>
+                              <h1 class='rule-title'>NỘI QUY MÁI ẤM</h1>
+                           </li>
+                           <li>
+                           <p class='rule-text'> 1. Giờ giấc đúng quy định (Đi về đúng giờ, tối 9h45 đóng cửa…)</p>
+                        </li>
+                        <li>
+                           <p class='rule-text'> 2. Quần áo nghiêm chỉnh, tác phong đúng đắn.</p>
+                        </li>
+                        <li>
+                           <p class='rule-text'> 3. Kính trên nhường dưới</p>
+                        </li>
+                        <li>
+                           <p class='rule-text'> 4. Yêu thương phục vụ (giúp đỡ lẫn nhau)</p>
+                        </li>
+                        <li>
+                           <p class='rule-text'> 5. Đi thưa về trình</p>
+                        </li>
+                        <li>
+                           <p class='rule-text'> 6. Minh bạch trong mọi vấn đề</p>
+                        </li>
+                        <li>
+                           <p class='rule-text'> 7. Không trộm cắp</p>
+                        </li>
+                        <li>
+                           <p class='rule-text'> 8. Không làm các hành vi vi phạm pháp luật.</p>
+                        </li>
+                        <li>
+                              <h1 class='rule-title'>DIỄN GIẢI NỘI QUY MÁI ẤM</h1>
+                           </li>
+                           <li>
+                           <p class='rule-text'> 1. <b>Giờ giấc:</b> 8h30 đọc kinh tối
+9h45 đóng cổng tối. Những người đi làm trễ (Đạt, Hương, Phương, Ân)
+sẽ được phát chìa khoá.</p>
+                        </li>
+                        <li>
+                           <p class='rule-text'> 2. <b>Quần áo nghiêm chỉnh, tác phong đúng đắn:</b> đi học về đồ dơ bỏ giặt, quần áo
+sau khi phát xếp ngăn nắp gọn gàng.
+<br> -  Giầy dép để đúng nơi quy định nếu không để đúng sau 3 lần nhắc nhở sẽ
+đem bỏ rác. Nhắc quá 3 lần sẽ họp cảnh cáo trước tập thể và nhờ chính
+quyền can thiệp.
+<br> -  Thực đẩy đủ các việc được giao như: dọn dẹp phòng, đi vệ sinh phải dội,
+tắm xong phải để quần áo vào sọt, sàn nhà luôn sạch và khô, rửa chén,
+quyét nhà.
+<br> -  Không vẽ bậy lên tường, không đi chân đất ra đường, không mang dép
+trong nhà và lên lầu.
+<br> -  Quần áo sạch sẽ, đóng thùng ngăn nắp gọn gàng, không mặc đồ hở hang.
+<br> -  Không nấu nướng ban đêm. Không tự ý tổ chức, tụ tập ăn nhậu ban đêm.
+<br> -  Không được vào phòng người khác để sinh hoạt cá nhân.</p>
+                        </li>
+                        <li>
+                           <p class='rule-text'> 3. <b>Kính trên nhường dưới:</b> Biết vâng lời người lớn, ngoan ngoãn, lễ phép. Không
+sai khiến, chèn ép, bạo hành các em dưới mình (không sai các em phục vụ
+riêng cho bản thân mình).</p>
+                        </li>
+                        <li>
+                           <p class='rule-text'> 4. <b>Yêu thương phục vụ:</b> Biết yêu thương nhau, không đánh nhau, cãi nhau, chửi
+thề, làm gương xấu, giúp đỡ lẫn nhau.</p>
+                        </li>
+                        <li>
+                           <p class='rule-text'> 5. <b>Đi thưa về trình:</b> Đi học theo lịch, đi về cho đúng giờ. Trường hợp ngoại lệ
+phải báo với người lớn.</p>
+                        </li>
+                        <li>
+                           <p class='rule-text'> 6. <b>Minh bạch trong mọi vấn đề:</b> Thông báo cho người quản lí biết nơi làm việc,
+giờ làm việc, lương….để có sự giám sát, tránh xảy ra tình trạng bị bóc lột sức
+lao động.</p>
+                        </li>
+                        <li>
+                           <p class='rule-text'> 7. <b>Không trộm cắp:</b> Không được lục tủ, lấy đồ của nhau. Không được cậy ổ khoá,
+đập cửa.</p>
+                        </li>
+                        <li>
+                           <p class='rule-text'> 8. <b>Không làm các hành vi vi phạm pháp luật:</b>
+<br> -  Không thực hiện các hành vi dâm dục
+<br> -  Không tiếp tay thực hiện các hành vi phạm pháp luật như cầm giúp, giữ
+giùm, giao giúp bạn, người xa lạ các chất trái phép, vũ khí….</p>
+                        </li>
+                        <li>
+                              <h1 class='rule-title'>NẾU KHÔNG THỰC HIỆN NHỮNG ĐIỀU NÊU TRÊN</h1>
+                           </li>
+                           <li>
+                           <p class='rule-text'> 1. <br> -  Sau 3 lần nhắc nhở sẽ họp cảnh cáo trước tập thể lần thứ 1, lần 2. Lần thứ 3
+mời chính quyền chứng kiến, can thiệp. Sau những lần vi phạm. Sẽ giao
+cho cơ quan có thẩm quyền xử lí
+<br> -  Những điều làm trái pháp luật thì CÁ NHÂN đủ tuổi theo pháp luật quy
+đinh phải tự chịu trách nhiệm. Mái ấm không bảo lãnh, không đóng
+phạt….và những gì liên quan khi có vấn đề khác xảy ra.</p>
+                        </li>
+                                       </ul>
+            </div>
+         </div>
+      </main>
+      <!-- /#content -->
+      <!-- #footer -->
+      <footer class="container-fluid bg-dcolor p-5">
+    <div class="container my-5 footer-div">
+        <p>Hãy giữ liên lạc với chúng tôi! Để lại email và thông tin ở mục bên dưới để có các thông tin mới nhất.</p>
+        <form class="form-inline my-5" action="/quy-dinh.php" method="POST">
+            <div class="container form-div">
+                <label for="inputEmail" class="sr-only">Email</label>
+                <input class="rounded-pill" type="email" name="inputEmail" id="inputEmail" placeholder="Email" aria-required="true" aria-invalid="true" required>
+                <label for="inputName" class="sr-only">Name</label>
+                <input class="rounded-pill" type="text" name="inputName" id="inputName" placeholder="Tên / Tổ Chức" aria-required="true" aria-invalid="true">
+                <label for="inputPhone" class="sr-only">Phone</label>
+                <input class="rounded-pill" type="tel" name="inputPhone" id="inputPhone" placeholder="Số điện thoại" aria-required="true" aria-invalid="true">
+            </div>
+            <button type="submit" class="btn btn-primary">Hoàn thành</button>
+        </form>
+        <p>Mái Ấm Truyền Tin, một mái ấm cho mọi nhà.</p>
+        <a class="navbar-brand m-3 p-0 my-5" href="#">
+            <img class="rounded-pill" src="img/matt_logo.jpg" width="70" height="70" alt="logo">
+        </a>
+        <ul id="footer-nav" style="display: flex; flex-direction: row;">
+        </ul>
+        <ul id="icon-nav" class="my-5">
+            <li>
+                <a href="https://www.facebook.com/M%C3%A1i-%E1%BA%A4m-Truy%E1%BB%81n-Tin-712547722195087/" title="facebook-link">
+                <i class="fa fa-facebook-square" aria-hidden="true"></i>
+                </a>
+                <a href="#" title="gmail-link">
+                <i class="fa fa-envelope" aria-hidden="true"></i>
+                </a>
+            </li>
+        </ul>
+        <h1 class="mt-5 font-italic">
+            2020 @Mái Ấm Truyền Tin
+        </h1>
+    </div>
+</footer>
+<script src="js/optimized-min_7.js"></script><script src="js/optimized-min_5.js"></script><script src="js/optimized-min_1.js"></script><script src="js/optimized-min.js"></script><script src="js/optimized-min_4.js"></script><script src="js/optimized-min_3.js"></script><script src="js/optimized-min_2.js"></script><script src="js/optimized-min_6.js"></script>
+<script src="js/main.js"></script>      <!-- /#footer -->
+   </div>
+</body>
+</html>

@@ -1,0 +1,99 @@
+﻿
+/* For language Vietnamese VI, change the AvantGardr Font by Tahoma because of specific accent. */
+body.osw #wrapper .osw-titlesize-h1,
+body.osw #wrapper .osw-titlesize-h2,
+body.osw #wrapper .osw-titlesize-h3,
+body.osw #wrapper .osw-titlesize-h4,
+body.osw #wrapper .osw-titlesize-h5,
+body.osw #wrapper .osw-titlesize-h6 {font-family: Tahoma, sans-serif;}
+
+body.osw #wrapper ul > li.osw-link {font-family: Tahoma, sans-serif;}
+
+body.osw #wrapper table thead tr th,
+body.osw #wrapper table thead tr th[scope="col"],
+body.osw #wrapper table tbody tr th,
+body.osw #wrapper table tbody tr th[scope="row"],
+body.osw #wrapper table tfoot tr th,
+body.osw #wrapper table tfoot tr th[scope="row"] {font-family: Tahoma, sans-serif;}
+
+body.osw #wrapper .osw-button {font-family: Tahoma, sans-serif;}
+
+body.osw #wrapper header .osw-header .osw-header-message .osw-header-message-line1,
+body.osw #wrapper header .osw-header .osw-header-message .osw-header-message-line2 {font-family: Tahoma, sans-serif;}
+body.osw #wrapper header .osw-header .osw-header-message .osw-header-message-line2 {font-family: Tahoma, sans-serif;}
+
+body.osw #wrapper .osw-container .osw-container-title,
+body.osw #wrapper .osw-contentblock .osw-contentblock-title,
+body.osw #wrapper .osw-contentblock-quote.osw-contentblock-quote-emphasis .osw-contentblock-maintext,
+body.osw #wrapper .osw-contentblock-quote.osw-contentblock-quote-emphasis .osw-contentblock-maintext p,
+body.osw .osw-directory-block .osw-directory-title,
+body.osw.large .osw-directory-block .osw-directory-title {font-family: Tahoma, sans-serif;}
+
+body.osw .osw-form .osw-fieldset > legend,
+body.osw .osw-form-selecttarget .osw-form-selecttarget-label label,
+body.osw .osw-form-selecttarget .osw-form-selecttarget-field select,
+body.osw .osw-form-selecttarget .osw-form-selecttarget-field select:focus {font-family: Tahoma, sans-serif;}
+
+body.osw #wrapper .osw-keyfigure-key,
+body.osw #wrapper .osw-keyfigure-title {font-family: Tahoma, sans-serif;}
+
+body.osw #wrapper .osw-modal-title {font-family: Tahoma, sans-serif;}
+
+body.osw #wrapper .component.rich-text h1,
+body.osw #wrapper .component.rich-text h2,
+body.osw #wrapper .component.rich-text h3,
+body.osw #wrapper .component.rich-text h4,
+body.osw #wrapper .component.rich-text h5,
+body.osw #wrapper .component.rich-text h6 {font-family: Tahoma, sans-serif;}
+
+body.osw #wrapper .component.link-list h1,
+body.osw #wrapper .component.link-list h2,
+body.osw #wrapper .component.link-list h3,
+body.osw #wrapper .component.link-list h4,
+body.osw #wrapper .component.link-list h5,
+body.osw #wrapper .component.link-list h6{font-family: Tahoma, sans-serif;}
+
+body.osw #wrapper main #content .osw-page .osw-page-banner-content-title {font-family: Tahoma, sans-serif;}
+
+body.osw #wrapper .osw-pagelist .osw-pagelist-title:not([class*="osw-titlesize-h"]) {font-family: Tahoma, sans-serif;}
+
+body.osw #wrapper .osw-pagelist-eventdate.osw-initialized-pagelist-eventdate .osw-pagelist-eventdate-large,
+body.osw.large #wrapper .osw-pagelist-eventdate.osw-initialized-pagelist-eventdate .osw-pagelist-eventdate-large,
+body.osw #wrapper .osw-pagelist-event:not(.osw-pagelist-event-eventdate-col-min60px) .osw-pagelist-element-start .osw-pagelist-eventdate.osw-initialized-pagelist-eventdate.osw-pagelist-eventdate-merge-year::after,
+body.osw #wrapper .osw-pagelist-event:not(.osw-pagelist-event-eventdate-col-min60px) .osw-pagelist-element-start .osw-pagelist-eventdate.osw-initialized-pagelist-eventdate.osw-pagelist-eventdate-merge-none::after {font-family: Tahoma, sans-serif;}
+
+body.osw #wrapper .osw-pagelist .osw-pagelist-pagination.osw-pagelist-pagination-pagenumber .osw-pagelist-pagination-item .osw-pagelist-pagination-item-pagenumber,
+body.osw #wrapper .osw-pagelist .osw-pagelist-pagination.osw-pagelist-pagination-pagenumber .osw-pagelist-pagination-itemhidden .osw-pagelist-pagination-item-pagenumber,
+body.osw #wrapper .osw-pagelist .osw-pagelist-pagination.osw-pagelist-pagination-pagenumber .osw-pagelist-pagination-itemprevious .osw-pagelist-pagination-item-pagenumber,
+body.osw #wrapper .osw-pagelist .osw-pagelist-pagination.osw-pagelist-pagination-pagenumber .osw-pagelist-pagination-itemnext .osw-pagelist-pagination-item-pagenumber {font-family: Tahoma, sans-serif;}
+
+body.osw #wrapper .osw-stockexchange-title,
+body.osw #wrapper .osw-stockexchange-title,
+body.osw #wrapper .osw-stockexchange-quote-name,
+body.osw #wrapper .osw-stockexchange-quote-data .osw-stockexchange-quote-value,
+body.osw #wrapper .osw-stockexchange-quote-data .osw-stockexchange-quote-variation .osw-stockexchange-quote-variation-value {font-family: Tahoma, sans-serif;}
+
+body.osw #wrapper .osw-video-title {font-family: Tahoma, sans-serif;}
+
+body.osw #wrapper .osw-nav-mobile-footer .osw-worldwide-selector .osw-worldwide-selector-label {font-family: Tahoma, sans-serif;}
+
+body.osw #wrapper nav.osw-nav ul.osw-nav-level1 > li.osw-nav-item,
+body.osw #wrapper nav.osw-nav ul:not(.osw-nav-level1) > li.osw-nav-title,
+body.osw #wrapper nav.osw-nav ul:not(.osw-nav-level1) > li.osw-nav-item,
+body.osw #wrapper nav.osw-nav-mobile ul.osw-nav-level1 > li.osw-nav-item,
+body.osw #wrapper nav.osw-nav-mobile ul.osw-nav-level2 > li.osw-nav-title,
+body.osw #wrapper nav.osw-nav-mobile ul.osw-nav-level3 > li.osw-nav-title,
+body.osw #wrapper nav.osw-nav-mobile ul.osw-nav-level4 > li.osw-nav-title,
+body.osw #wrapper nav.osw-nav-mobile ul.osw-nav-level5 > li.osw-nav-title,
+body.osw #wrapper nav.osw-nav-mobile ul.osw-nav-level6 > li.osw-nav-title,
+body.osw #wrapper nav.osw-nav-mobile ul.osw-nav-level2 > li.osw-nav-item,
+body.osw #wrapper nav.osw-nav-mobile ul.osw-nav-level3 > li.osw-nav-item,
+body.osw #wrapper nav.osw-nav-mobile ul.osw-nav-level4 > li.osw-nav-item,
+body.osw #wrapper nav.osw-nav-mobile ul.osw-nav-level5 > li.osw-nav-item,
+body.osw #wrapper nav.osw-nav-mobile ul.osw-nav-level6 > li.osw-nav-item {font-family: Tahoma, sans-serif;}
+
+body.osw .job-search label,
+body.osw .job-search input,
+body.osw .site-searchbox form.site-searchbox-form label,
+body.osw .site-searchbox form.site-searchbox-form input,
+body.osw .search-form .osw-search-form .osw-search-form-inputtext {font-family: Tahoma, sans-serif;}

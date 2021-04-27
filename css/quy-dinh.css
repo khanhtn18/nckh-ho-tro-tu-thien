@@ -1,0 +1,72 @@
+/* quy-dinh */
+.main-title {
+    text-align: center;
+    padding: 1em;
+    font-size: 4em !important;
+    font-weight: 600;
+    color: var(--dark-color);
+}
+.main-title::before {
+    content: "";
+    margin-right: .3em;
+    border-right: .1em solid rgb(122, 120, 255);
+}
+.text-div {
+    width: 75%;
+    margin: 0 auto;
+}
+.title-text {
+    font-size: 3em !important;
+    text-align: center;
+}
+.rule-div {
+    margin-bottom: 4em;
+}
+.rule-title {
+    text-align: center;
+    font-size: 2em !important;
+    color: var(--light-color);
+    margin: 1em 0;
+}
+.rule-text {
+    color: rgb(150, 150, 150);
+    text-align: left;
+}
+/* responsive */
+@media only screen and (max-width: 1000px) {
+    .text-div {
+        width: 85%;
+    }
+}
+@media only screen and (max-width: 800px) {
+    .rule-div {
+        padding: .8em !important;
+    }
+}
+@media only screen and (max-width: 600px) {
+    .text-div {
+        width: 100%;
+    }
+    .main-title {
+        font-size: 3em !important;
+    }
+    .rule-title {
+        font-size: 1.5em !important;
+    }
+}
+@media only screen and (max-width: 400px) {
+    p {
+        font-size: 1em !important;
+    }
+}
+@media only screen and (max-width: 250px) {
+    p {
+        font-size: 12px !important;
+    }
+    .main-title {
+        font-size: 2em !important;
+    }
+    .rule-title {
+        font-size: 1.2em !important;
+    }
+}

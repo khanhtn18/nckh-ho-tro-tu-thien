@@ -1,0 +1,63 @@
+/* tim-kiem */
+#search-div {
+    min-height: 30em;
+}
+.query-div {
+    max-height: 400px;
+    overflow: auto;
+    padding: 0 5em;
+}
+.query-div::-webkit-scrollbar {
+    width: 10px;
+}
+.query-div::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+.query-div::-webkit-scrollbar-thumb {
+    background: #888;
+}
+.query-div::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
+#search-nav {
+    display: flex;
+    flex-direction: row;
+    border-radius: 5px;
+}
+#search-nav input {
+    width: calc(100% - 6em);
+    font-size: 2rem;
+    border: 0;
+    box-shadow: none;
+}
+#search-nav button {
+    font-size: 1.1rem;
+    padding: 1em;
+    margin-left: 1em;
+}
+/* respondsive */
+@media only screen and (max-width: 800px) {
+    .query-div {
+        padding: 0 2em;
+    }
+}
+@media only screen and (max-width: 600px) {
+    #search-nav input {
+        font-size: 14px;
+    }
+    .query-div {
+        padding: 0;
+    }
+}
+@media only screen and (max-width: 400px) {
+    #search-nav input {
+        text-align: center;
+        width: 100%;
+        font-size: 12px;
+    }
+    #search-nav button {
+        text-align: center;
+        width: 100%;
+        margin: 0;
+    }
+}
